@@ -33,8 +33,6 @@ export const Item = styled.div`
 
     border-radius: 6px 36px;
 
-    /* position: relative; */
-
     padding: 0 1.25rem;
 
     max-width: 256px;
@@ -115,21 +113,6 @@ export const ItemInfo = styled.div`
         margin: 0;
         margin-right: 1.5rem;
     }
-
-    input {
-        font-size: 1rem;
-        line-height: 1.25rem;
-
-        background-color: ${props => props.theme['base-button']};
-        color: ${props => props.theme['base-title']};
-
-        padding: 8px;
-        
-        border: none;
-    border-radius: 6px;
-
-        max-width: 72px;
-    }
 `
 
 export const AddCartButton = styled.button`
@@ -141,6 +124,10 @@ export const AddCartButton = styled.button`
     border-radius: 6px;
 
     margin-left: 0.375rem;
+
+    &:hover {
+        cursor: pointer;
+    }
 
     svg {
         color: ${props => props.theme['base-card']};

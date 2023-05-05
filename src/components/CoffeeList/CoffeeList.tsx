@@ -3,6 +3,7 @@ import { ShoppingCartSimple } from "phosphor-react";
 import { CoffeeListContainer, ItemContainer, Item, ItemInfo, AddCartButton } from "./styles";
 
 import coffee1 from '../../assets/coffee-1.svg';
+import { AmountControl } from "../AmountControl";
 
 export function CoffeeList() {
     return (
@@ -20,7 +21,7 @@ export function CoffeeList() {
                     <ItemInfo>
                         <span>R$</span>
                         <p>9,90</p>
-                        <input type="number" name="" id="" />
+                        <AmountControl />
                         <AddCartButton onClick={() => console.log('X')}>
                             <ShoppingCartSimple size={22} weight="fill" />
                         </AddCartButton>
@@ -37,7 +38,7 @@ export function CoffeeList() {
                     <ItemInfo>
                         <span>R$</span>
                         <p>9,90</p>
-                        <input type="number" name="" id="" />
+                        <AmountControl />
                         <AddCartButton onClick={() => console.log('X')}>
                             <ShoppingCartSimple size={22} weight="fill" />
                         </AddCartButton>
@@ -54,7 +55,7 @@ export function CoffeeList() {
                     <ItemInfo>
                         <span>R$</span>
                         <p>9,90</p>
-                        <input type="number" name="" id="" />
+                        <AmountControl />
                         <AddCartButton onClick={() => console.log('X')}>
                             <ShoppingCartSimple size={22} weight="fill" />
                         </AddCartButton>
@@ -71,7 +72,7 @@ export function CoffeeList() {
                     <ItemInfo>
                         <span>R$</span>
                         <p>9,90</p>
-                        <input type="number" name="" id="" />
+                        <AmountControl />
                         <AddCartButton onClick={() => console.log('X')}>
                             <ShoppingCartSimple size={22} weight="fill" />
                         </AddCartButton>
@@ -88,7 +89,7 @@ export function CoffeeList() {
                     <ItemInfo>
                         <span>R$</span>
                         <p>9,90</p>
-                        <input type="number" name="" id="" />
+                        <AmountControl />
                         <AddCartButton onClick={() => console.log('X')}>
                             <ShoppingCartSimple size={22} weight="fill" />
                         </AddCartButton>
